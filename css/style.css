@@ -1,0 +1,218 @@
+* { box-sizing: border-box;}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.home-wrapper{
+  background: url("../Imagenes/fondo_headers.jpg") no-repeat center;
+  background-size: cover;
+  color: white;
+}
+
+header {
+  padding: 10px 0;
+  position: fixed;
+
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 10px 15px;
+  background: black;
+  border-radius: 5px;
+}
+
+header nav a.active {
+  color: black;
+  background-color: white;
+}
+
+header nav a:hover {
+  color: black;
+  background-color: white;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+
+#home {
+  text-align: center;
+  padding: 110px 0px 100px;
+}
+
+#home img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+#home h1 {
+  font-size: 60px;
+  font-weight: normal;
+  color: black;
+}
+
+#home p {
+  font-size: 24px;
+
+}
+
+#home .social {
+  margin-top: 30px;
+}
+
+#home .social a {
+  color: white;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: black;
+  font-size: 24px;
+  font-weight: bold;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  margin-right: 10px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+
+#home .social a:hover {
+  color: black;
+  background-color: white;
+}
+
+#Estudios .box {
+  display: inline-block;
+  text-align: center;
+  width: 24%;
+  padding: 10px;
+}
+
+#Estudios .box img {
+  width: 120px;
+}
+
+#Habilidades .section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    list-style-position:inside
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    list-style: none;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+}
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+
+#Experiencia {
+  background-color: whitesmoke;
+}
+
+#Experiencia .empresa {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+
+}
+
+#Experiencia .empresa img {
+  width: 400px;
+}
+
+#Experiencia .box {
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+  padding: 10px;
+}
+
+#Experiencia .box img {
+  width: 150px;
+}
+
+#Contacto {
+  background-color: #303030;
+  background-image: url('../Imagenes/world2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#Contacto h2 {
+  color: white;
+}
+
+#Contacto input {
+  padding: 20px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#Contacto textarea {
+  margin: 20px 0;
+  padding: 20px;
+  width: 400px;
+}
+
+#Contacto button {
+  background-color: #3498DB;
+  padding: 10px 20px;
+  border-color: aqua;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+footer {
+  padding: 30px 0px;
+  text-align: center;
+  font-size: 18px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+section h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+}
